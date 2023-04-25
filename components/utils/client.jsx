@@ -20,7 +20,7 @@ const Client = ({ index, onClick, testimonial }) => {
       setlower630(window.innerWidth<630);
 
     }
-    window.addEventListener('resize', handleResize);
+    window.addEventListener('resize', handleResize); 
     
       return () => {
         window.removeEventListener('resize', handleResize);

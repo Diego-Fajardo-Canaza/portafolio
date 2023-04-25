@@ -1,7 +1,4 @@
 import React, {useState, useEffect} from "react";
-import { SiAntdesign } from "react-icons/si";
-import {BiCodeAlt} from "react-icons/bi"
-import {TbSeo} from "react-icons/tb"
 
 
 const Box = ({ headline, desc, project, }) => {
@@ -37,11 +34,7 @@ const Box = ({ headline, desc, project, }) => {
         <p className="opacity-70 mt-2 mb-5">{desc}</p>
         <p className={`text-base ease-in duration-300 ${isHovered ? "underline underline-offset-2" : ""} `} >{project}</p>
       </div>
-      <div className="icon ">
-        {headline === "Design" && <SiAntdesign className={`text-2xl  ease-in duration-300 ${isHovered ? "text-green" : ""} `} />}
-        {headline === "Front-End" && <BiCodeAlt className={`text-3xl ease-in duration-300 ${isHovered ? "text-green" : ""} `} />}
-        {headline === "SEO" && <TbSeo className={`text-3xl ease-in duration-300 ${isHovered ? "text-green" : ""} `} />}
-      </div>
+      
     </section>
   );
 };
