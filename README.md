@@ -1,6 +1,6 @@
 
 
-![Group 14]()
+
 
 ## Getting Started
 
